@@ -8,3 +8,4 @@ go.work.sum
 subspace-relay-cardhopper-emulate
 output
 build
+dist/
