@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/nvx/go-rfid v0.0.2
 	github.com/nvx/go-subspace-relay v0.0.7
-	github.com/nvx/go-subspace-relay-logger v0.0.1
+	github.com/nvx/go-subspace-relay-logger v0.0.2
 	github.com/nvx/subspace-relay v0.0.9
 	go.bug.st/serial v1.6.4
 )
