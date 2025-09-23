@@ -64,7 +64,7 @@ func main() {
 	h.type4 = &type4.Emulator{Handler: h}
 	h.cardhopper = cardhopper.New(port, h.type4)
 
-	h.relay, err = subspacerelay.New(ctx, defaultBrokerURL, "")
+	h.relay, err = subspacerelay.New(ctx, brokerURL, "")
 	if err != nil {
 		slog.ErrorContext(ctx, "Error connecting to server", rfid.ErrorAttrs(err))
 		os.Exit(1)
